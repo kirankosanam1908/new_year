@@ -7,14 +7,15 @@ import { Heart, Lock, Unlock, Sparkles, Gift, Calendar, Type, CheckCircle } from
 const SORRY_QUESTIONS = [
   {
     type: 'mcq',
-    question: "What is my favorite food item?(food tho start chesa edaku)",
+    question: "What is my favorite food item?(food tho start chesa ani edaku)",
     options: ["Chicken 65", "Apollo fish", "Loose Prawns", "Fish fry"],
     correctAnswer: 2
   },
   {
-    type: 'date',
-    question: "When did we first realise?(not commitment jst realisation date) (DD-MM-YYYY)",
-    correctAnswer: "08-04-2025" // Change this to your actual date
+    type: 'mcq',
+    question: "What is my favorite food place?(food tho start chesa ani edaku)",
+    options: ["Beach", "Temple", "Shopping mall", "Mountains"],
+    correctAnswer: 0
   },
   {
     type: 'text',
@@ -38,27 +39,27 @@ const SORRYS = [
   {
     title: "Sorry for being annoying sometimes",
     message: "Rey Banda... Konnisarlu chinna chinna vaatike baaga ibbandhi pettesa ninnu... avi pattinchukokunda ksheminche ra... chiraku padakunda undadaniki try chestha..🥺",
-    image: "/public/image-6.jpg"
+    image: "/image-6.jpg"
   },
   {
     title: "Sorry for my bad jokes",
     message: "Cutie, Konnisarlu wrong time lo or wrong situation lo bad jokes vesa(avi manchi jokes ae)... alantivi jaragakunda undadaniki try chestha... 😅",
-    image: "/public/image-7.jpg"
+    image: "/image-7.jpg"
   },
   {
     title: "Sorry for making you wait",
     message: "Darlingss, Ee madhya baaga ekva wait cheyyistunna ninnu... kavalani kaadu le but reason emaina sare ninnu antha wait cheyyinchadam crct kaadu le... Times anni manchiga set cheskunta.. so neeku ekva time ivvadaniki avtadhi... ⏰💕",
-    image: "/public/image-8.jpg"
+    image: "/image-8.jpg"
   },
   {
     title: "Sorry for not expressing my love when u expect",
     message: "Maa, Konnisarlu neeku kavalsina time lo neeku ivvalsina love ivvaledu ra.. eesari avi mundhe gurtinchi manchiga expressive ga unta... 💙",
-    image: "/public/image-9.jpg"
+    image: "/image-9.jpg"
   },
   {
     title: "Sorry for not saying sorry this much",
     message: "Harsss, I'm really sorry for disappointing you this year. Chaalane mistakes chesa ee year... But yevi kuda ninnu hurt cheyalani cheyaledu raa... you're my everything, today and always. 💖",
-    image: "/public/image-4.jpg"
+    image: "/image-4.jpg"
   }
 ];
 
@@ -97,27 +98,27 @@ const THANKS = [
   {
     title: "Thanks for your patience",
     message: "Pandu, Konnisarlu matram naa kopanni chala baaga handle chesav... chala rare le... and manchiga vintav nenu cheppinavanni... alane manchiga undu... 🌸",
-    image: "/public/IMG-20240907-WA0194.jpg"
+    image: "/IMG-20240907-WA0194.jpg"
   },
   {
     title: "Thanks for making me smile",
     message: "Bujjodaa, nv konnisarlu chala active ga untav ra... apdu matram naa face medha smile podhu ra... full ga njoy chestha... 😊✨",
-    image: "/public/IMG-20241007-WA0134.jpg"
+    image: "/IMG-20241007-WA0134.jpg"
   },
   {
     title: "Thanks for being you",
     message: "Sweetheart, Neelo most favorite thing ae adhi ra... evari daggara ela untavo telidu kani... naa daggara matram nv complete ga neelaane untav... Thanks for being perfectly you! 🔥💕",
-    image: "/public/IMG20250717165343.jpg"
+    image: "/IMG20250717165343.jpg"
   },
   {
     title: "Thanks for believing in me",
     message: "Cutie, Naa medha antha nammakam neeku ela vachindho telidu kani... mana iddari bonding ki adhe main pillar aipoindhi... neeku the best life istha ra... naa medha nammakam alane unchu... 💪❤️",
-    image: "/public/IMG-20250316-WA0033.jpg"
+    image: "/IMG-20250316-WA0033.jpg"
   },
   {
     title: "Thanks for choosing me",
     message: "Darlingss, Nee day lo nenoka imp part aipoya... naa every thought lo nv kachitang untunnav raa...Thank you for your love, your time, and your beautiful heart. Forever grateful! 💝",
-    image: "/public/HDR_3709.JPG"
+    image: "/HDR_3709.JPG"
   }
 ];
 
